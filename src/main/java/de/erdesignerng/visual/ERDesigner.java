@@ -85,6 +85,9 @@ public final class ERDesigner {
 
 		theScreen.setVisible(false);
 		frame.setVisible(true);
+		QuoteOfTheDay objQuote = new
+		QuoteOfTheDay();
+		objQuote.QuoteOfTheDay();
 
 		if (StringUtils.isNotEmpty(theFilenameToOpen)) {
 			frame.commandOpenFile(new File(theFilenameToOpen));
